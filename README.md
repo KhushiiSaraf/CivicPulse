@@ -1,20 +1,59 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🏙️ CivicPulse — AI-Powered Civic Issue Reporter
 
-# Run and deploy your AI Studio app
+A hyperlocal community issue reporting platform that empowers 
+citizens to report, track, and resolve civic infrastructure 
+problems using the power of AI.
 
-This contains everything you need to run your app locally.
+Built for **Vibe2Ship Hackathon** by Coding Ninjas x Google for Developers
 
-View your app in AI Studio: https://ai.studio/apps/278a833e-ae4b-4ab5-b6ad-3d06c1a36398
+## 🚀 Live Demo
+[Click here to view the app](YOUR_DEPLOYED_URL_HERE)
 
-## Run Locally
+## 🎯 Problem Statement
+Communities frequently face issues like potholes, water leakages,
+damaged streetlights, and waste management problems. Reporting 
+these is often fragmented, difficult to track, and lacks 
+transparency.
 
-**Prerequisites:**  Node.js
+## 💡 Solution
+CivicPulse lets citizens report issues with a photo and 
+description. Gemini AI automatically categorizes the issue, 
+assigns severity, and generates a formal complaint letter 
+to the relevant municipal authority.
 
+## ✨ Key Features
+- 📸 Photo + description based issue reporting
+- 🤖 Gemini AI powered auto-categorization
+- ⚠️ AI generated severity scoring (Critical/High/Medium/Low)
+- 📝 AI drafted formal complaint letter
+- ⏱️ Estimated resolution time
+- 🗺️ Interactive Google Maps integration
+- 📊 Real-time statistics dashboard
+- 📱 Mobile responsive design
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Technologies Used
+- React.js
+- Gemini 1.5 Flash API
+- Google Maps API
+- Google AI Studio
+- Google Cloud Platform
+
+## 🧠 Google Technologies
+| Technology | Usage |
+|-----------|-------|
+| Google AI Studio | Development & Deployment |
+| Gemini 1.5 Flash | Image analysis, categorization, complaint generation |
+| Google Maps API | Location mapping & geolocation |
+| Google Cloud Platform | Hosting & infrastructure |
+
+## 📸 How It Works
+1. Citizen uploads a photo of a civic issue
+2. Gemini AI analyzes and categorizes the issue
+3. Severity score and resolution time are assigned
+4. Formal complaint letter is auto-generated
+5. Issue appears on community feed and map
+6. Status tracked from Reported → In Progress → Resolved
+
+## 🏆 Hackathon
+Vibe2Ship — Coding Ninjas x Google for Developers
+June 2026
