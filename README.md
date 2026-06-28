@@ -6,9 +6,6 @@ problems using the power of AI.
 
 Built for **Vibe2Ship Hackathon** by Coding Ninjas x Google for Developers
 
-## 🚀 Live Demo
-[Click here to view the app](YOUR_DEPLOYED_URL_HERE)
-
 ## 🎯 Problem Statement
 Communities frequently face issues like potholes, water leakages,
 damaged streetlights, and waste management problems. Reporting 
