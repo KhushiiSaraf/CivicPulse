@@ -1,0 +1,6 @@
+{
+  "name": "CivicPulse",
+  "description": "A citizen-focused platform to report local civic issues, automatically categorized and formatted into formal complaints using Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
